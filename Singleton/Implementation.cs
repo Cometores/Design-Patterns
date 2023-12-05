@@ -7,7 +7,7 @@
     {
         // Lazy<T> for thread safety
         private static readonly Lazy<Logger> _lazyLogger = new Lazy<Logger>(() => new Logger());
-        
+
         /// <summary>
         /// Instance
         /// </summary>
