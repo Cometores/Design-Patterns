@@ -48,23 +48,19 @@
     /// </summary>
     public class DocumentProxy : IDocument
     {
+        // avoid creating the document until we need it
+        private Lazy<Document> _document;
         private string _fileName;
-        private Document? _document;
 
         public DocumentProxy(string fileName)
         {
             _fileName = fileName;
+            _document = new Lazy<Document>(() => new Document(_fileName));
         }
         
         public void DisplayDocument()
         {
-            // avoid creating the document until we need it
-            if (_document == null)
-            {
-                _document = new Document(_fileName);
-            }
-            
-            _document.DisplayDocument();
+            _document.Value.DisplayDocument();
         }
     }
 }
