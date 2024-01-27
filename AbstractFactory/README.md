@@ -23,5 +23,6 @@ of related products and you want future extensibility.
 -  **Avoid tight coupling** between concrete products and client code.
 -  **Single Responsibility Principle**: You can extract the product creation code into one place, making the code easier to support.
 -  **Open/Closed Principle**: You can introduce new variants of products without breaking existing client code.
-  **Cons**:
+
+**Cons**:
 - Code may become more complicated
