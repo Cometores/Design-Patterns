@@ -13,6 +13,7 @@
 
 ## Diagram
 ![factoryMethodDiagram.png](factoryMethodDiagram.png)
+
 You can declare the factory method `createProduct` as
 `abstract` to force all subclasses to implement their own versions of 
 the method. As an alternative, the base factory method can return some 

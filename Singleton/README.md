@@ -14,6 +14,7 @@
 
 ## Diagram
 ![singletonDiagram.png](singletonDiagram.png)
+
 **Singleton** class declares the **static method** `getInstance` that returns the 
 same instance of its own class.
 
