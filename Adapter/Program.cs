@@ -1,8 +1,8 @@
-﻿using Adapter;
+﻿using Adapter; // using object adapter example
+/*using ClassAdapter; // using class adapter example*/
 
 Console.Title = "Adapter";
 
-// object adapter example
 ICityAdapter adapter = new CityAdapter();
 var city = adapter.GetCity();
 
