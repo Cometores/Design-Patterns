@@ -8,10 +8,13 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Singleton", "01 - Singleton", "{482F9D07-99EE-4BF6-975F-295E89ECBCF9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Factory Method", "02 - Factory Method", "{E8783E99-05CD-4F71-B166-0FC1B90FC2C2}"
+	ProjectSection(SolutionItems) = preProject
+		Sources\Creational\FactoryMethod\README.md = Sources\Creational\FactoryMethod\README.md
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - Abstract Factory", "03 - Abstract Factory", "{4763D927-A2E7-4322-8134-7D24DDD947F1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethod", "Sources\Creational\FactoryMethod\FactoryMethod.csproj", "{1CDF5F40-3F42-4339-9702-8BC7EA4D9DEE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiscountFactoryMethod", "Sources\Creational\FactoryMethod\DiscountFactoryMethod\DiscountFactoryMethod.csproj", "{1CDF5F40-3F42-4339-9702-8BC7EA4D9DEE}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory", "Sources\Creational\AbstractFactory\AbstractFactory.csproj", "{51C54352-1897-4749-BD39-660613C2235B}"
 EndProject
@@ -100,6 +103,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "23 - Interpreter", "23 - Interpreter", "{FBA7CDD7-9BF5-4272-9414-C9A4DB6D5BDB}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interpreter", "Sources\Behavioral\Interpreter\Interpreter.csproj", "{39C0A16A-B9F1-444B-9D5D-F46BBB84F746}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnemiesFactoryMethod", "Sources\Creational\FactoryMethod\EnemiesFactoryMethod\EnemiesFactoryMethod.csproj", "{7284600A-EC89-48F6-A722-07E0DF47B86F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -199,6 +204,10 @@ Global
 		{39C0A16A-B9F1-444B-9D5D-F46BBB84F746}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{39C0A16A-B9F1-444B-9D5D-F46BBB84F746}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{39C0A16A-B9F1-444B-9D5D-F46BBB84F746}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7284600A-EC89-48F6-A722-07E0DF47B86F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7284600A-EC89-48F6-A722-07E0DF47B86F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7284600A-EC89-48F6-A722-07E0DF47B86F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7284600A-EC89-48F6-A722-07E0DF47B86F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -250,6 +259,7 @@ Global
 		{97CB88F2-868A-457A-90EB-89F55B9CBBF4} = {1622583F-64EB-4F30-8D38-E897FF8FA140}
 		{FBA7CDD7-9BF5-4272-9414-C9A4DB6D5BDB} = {EE357574-412D-4C9D-A167-5002DE164362}
 		{39C0A16A-B9F1-444B-9D5D-F46BBB84F746} = {FBA7CDD7-9BF5-4272-9414-C9A4DB6D5BDB}
+		{7284600A-EC89-48F6-A722-07E0DF47B86F} = {E8783E99-05CD-4F71-B166-0FC1B90FC2C2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F84E1DA5-656F-4C72-9FBA-4A07AD3EE35E}

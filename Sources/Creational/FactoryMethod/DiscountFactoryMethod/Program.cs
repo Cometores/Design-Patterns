@@ -1,4 +1,4 @@
-﻿using FactoryMethod;
+﻿using DiscountFactoryMethod;
 
 Console.Title = "Factory Method";
 

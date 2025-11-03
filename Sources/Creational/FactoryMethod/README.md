@@ -12,6 +12,7 @@
 **Factory Method** suggest that you replace direct object construction calls (using `new` operator).
 
 ## Diagram
+
 ![factoryMethodDiagram.png](factoryMethodDiagram.png)
 
 You can declare the factory method `createProduct` as
@@ -28,5 +29,27 @@ default product type.
 **Cons**:
 - Code may become more complicated
 
-## Shopping cart discount service Example
+___
+
+# Examples
+## Shopping cart discount service example
 **Problem**: We want to calculate the discount, but there are multiple ways to do that.
+1. Discount by country
+2. Discount by code
+
+Factory method will allow us to add new discount types without changing the existing code.</br>
+In this example we are using **abstract classes**.
+
+![discountServiceFactoryDiagram.png](discountServiceFactoryDiagram.png)
+
+## Enemies spawner example
+**Problem**: We want to spawn different enemies. Different enemies will appear differently. After an enemy spawned it 
+will chase player.</br>
+Types of enemies are:
+1. Flying enemy
+2. Walking enemy
+
+In this example we are using **interfaces**.
+
+![enemiesFactoryDiagram.png](enemiesFactoryDiagram.png)
+
