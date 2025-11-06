@@ -1,7 +1,7 @@
-﻿namespace AbstractFactory;
+﻿namespace ShoppingCartAbstractFactory;
 
 /// <summary>
-/// ConcreteFactory
+/// Concrete factory for Belgium
 /// </summary>
 public class BelgiumShoppingCartPurchaseFactory : IShoppingCartPurchaseFactory
 {
@@ -17,7 +17,7 @@ public class BelgiumShoppingCartPurchaseFactory : IShoppingCartPurchaseFactory
 }
 
 /// <summary>
-/// ConcreteFactory
+/// Concrete factory for France
 /// </summary>
 public class FranceShoppingCartPurchaseFactory : IShoppingCartPurchaseFactory
 {

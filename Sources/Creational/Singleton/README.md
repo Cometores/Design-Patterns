@@ -33,3 +33,6 @@ Singleton’s **constructor** should be hidden from the client code. Calling the
 - It may be difficult to unit test the client code of the Singleton because many test frameworks rely on inheritance when producing mock objects. Since the constructor of the singleton class is private and overriding static methods is impossible in most languages, you will need to think of a creative way to mock the singleton.
 
 ## Custom logger Example:
+
+___
+[Back to home page](../../../README.md)

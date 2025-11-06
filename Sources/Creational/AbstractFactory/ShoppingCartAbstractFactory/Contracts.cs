@@ -1,7 +1,7 @@
-﻿namespace AbstractFactory;
+﻿namespace ShoppingCartAbstractFactory;
 
 /// <summary>
-/// AbstractFactory
+/// Abstract factory
 /// </summary>
 public interface IShoppingCartPurchaseFactory
 {
@@ -10,7 +10,7 @@ public interface IShoppingCartPurchaseFactory
 }
 
 /// <summary>
-/// AbstractProduct
+/// Abstract product. (ProductA)
 /// </summary>
 public interface IDiscountService
 {
@@ -18,7 +18,7 @@ public interface IDiscountService
 }
 
 /// <summary>
-/// AbstractProduct
+/// Abstract product. (ProductB)
 /// </summary>
 public interface IShippingCostsService
 {

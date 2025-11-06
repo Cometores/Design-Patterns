@@ -13,10 +13,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Factory Method", "02 -
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - Abstract Factory", "03 - Abstract Factory", "{4763D927-A2E7-4322-8134-7D24DDD947F1}"
+	ProjectSection(SolutionItems) = preProject
+		Sources\Creational\AbstractFactory\README.md = Sources\Creational\AbstractFactory\README.md
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiscountFactoryMethod", "Sources\Creational\FactoryMethod\DiscountFactoryMethod\DiscountFactoryMethod.csproj", "{1CDF5F40-3F42-4339-9702-8BC7EA4D9DEE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory", "Sources\Creational\AbstractFactory\AbstractFactory.csproj", "{51C54352-1897-4749-BD39-660613C2235B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShoppingCartAbstractFactory", "Sources\Creational\AbstractFactory\ShoppingCartAbstractFactory\ShoppingCartAbstractFactory.csproj", "{51C54352-1897-4749-BD39-660613C2235B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 -Builder", "04 -Builder", "{21752809-82A5-4212-8444-166F656129FC}"
 EndProject

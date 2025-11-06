@@ -53,3 +53,6 @@ In this example we are using **interfaces**.
 
 ![enemiesFactoryDiagram.png](enemiesFactoryDiagram.png)
 
+___
+[Back to home page](../../../README.md)
+

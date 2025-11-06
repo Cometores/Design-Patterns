@@ -22,3 +22,19 @@ of related products and you want future extensibility.
 
 **Cons**:
 - Code may become more complicated
+
+___
+# Examples
+
+## Shopping cart with discount and shipping service
+We have an online store, which will grow over time and cover different countries. To calculate the price of the order, 
+we need to use different shipping and discount services.
+
+Countries:
+- Belgium
+- France
+
+![shoppingCartAbstractFactoryDiagram.png](shoppingCartAbstractFactoryDiagram.png)
+
+___
+[Back to home page](../../../README.md)

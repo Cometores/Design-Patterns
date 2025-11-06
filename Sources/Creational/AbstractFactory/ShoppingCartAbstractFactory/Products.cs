@@ -1,7 +1,7 @@
-﻿namespace AbstractFactory;
+﻿namespace ShoppingCartAbstractFactory;
 
 /// <summary>
-/// ConcreteProduct
+/// Concrete product A for Belgium. (ProductA1)
 /// </summary>
 public class BelgiumDiscountService : IDiscountService
 {
@@ -9,7 +9,7 @@ public class BelgiumDiscountService : IDiscountService
 }
 
 /// <summary>
-/// ConcreteProduct
+/// Concrete product for Belgium. (ProductA2)
 /// </summary>
 public class FranceDiscountService : IDiscountService
 {
@@ -17,7 +17,7 @@ public class FranceDiscountService : IDiscountService
 }
 
 /// <summary>
-/// ConcreteProduct
+/// Concrete product B for Belgium. (ProductB1)
 /// </summary>
 public class BelgiumShippingCostsService : IShippingCostsService
 {
@@ -25,7 +25,7 @@ public class BelgiumShippingCostsService : IShippingCostsService
 }
 
 /// <summary>
-/// ConcreteProduct
+/// Concrete product B for France. (ProductB2)
 /// </summary>
 public class FranceShippingCostsService : IShippingCostsService
 {
