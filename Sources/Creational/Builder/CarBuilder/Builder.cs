@@ -1,4 +1,4 @@
-﻿namespace BuilderPattern;
+﻿namespace CarBuilder;
 
 /// <summary>
 /// Builder
@@ -17,7 +17,7 @@ public abstract class CarBuilder
 }
 
 /// <summary>
-/// ConcreteBuilder1 class
+/// Concrete builder 1 
 /// </summary>
 public class MiniBuilder : CarBuilder
 {

@@ -1,6 +1,6 @@
-﻿using BuilderPattern;
+﻿using CarBuilder;
 
-Console.Title = "Builder";
+Console.Title = "CarBuilder";
 
 var garage = new Garage();
 

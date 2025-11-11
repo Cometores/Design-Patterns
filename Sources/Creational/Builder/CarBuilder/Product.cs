@@ -1,6 +1,6 @@
 ﻿using System.Text;
 
-namespace BuilderPattern;
+namespace CarBuilder;
 
 /// <summary>
 /// Product
@@ -15,10 +15,7 @@ public class Car
         _carType = carType;
     }
 
-    public void AddPart(string part)
-    {
-        _parts.Add(part);
-    }
+    public void AddPart(string part) => _parts.Add(part);
 
     public override string ToString()
     {

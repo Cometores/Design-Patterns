@@ -1,4 +1,4 @@
-﻿namespace BuilderPattern;
+﻿namespace CarBuilder;
 
 /// <summary>
 /// Director
@@ -7,10 +7,9 @@ public class Garage
 {
     private CarBuilder? _builder;
 
-    public Garage()
-    {
-    }
-
+    /// <summary>
+    /// Creates a car using the specified builder.
+    /// </summary>
     public void Construct(CarBuilder builder)
     {
         _builder = builder;
@@ -19,6 +18,9 @@ public class Garage
         _builder.BuildFrame();
     }
 
+    /// <summary>
+    /// Displays the details of the constructed car.
+    /// </summary>
     public void Show()
     {
         Console.WriteLine(_builder?.Car.ToString());
