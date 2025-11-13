@@ -1,4 +1,4 @@
-﻿using Singleton;
+﻿using LoggerSingleton;
 
 Console.Title = "Singleton";
 

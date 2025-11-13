@@ -1,4 +1,4 @@
-﻿namespace Singleton
+﻿namespace LoggerSingleton
 {
     /// <summary>
     /// Singleton

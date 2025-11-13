@@ -1,4 +1,4 @@
-﻿using Prototype;
+﻿using PersonPrototype;
 
 Console.Title = "Prototype";
 

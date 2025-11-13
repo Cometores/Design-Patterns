@@ -10,7 +10,7 @@
 
 Sometimes it’s even possible to create a two-way adapter that can convert the calls in both directions.
 
-# Diagram
+## Diagram
 ## Object Adapter Diagram
 **Object composition principle**: the adapter implements the interface of one object and wraps the other one.
 ![objectAdapterDiagram.png](objectAdapterDiagram.png)

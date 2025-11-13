@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "A - Creational", "A - Creational", "{B0F237CE-4C3B-467B-AB3F-7FED90583AB9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Singleton", "01 - Singleton", "{482F9D07-99EE-4BF6-975F-295E89ECBCF9}"
+	ProjectSection(SolutionItems) = preProject
+		Sources\Creational\Singleton\README.md = Sources\Creational\Singleton\README.md
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Factory Method", "02 - Factory Method", "{E8783E99-05CD-4F71-B166-0FC1B90FC2C2}"
 	ProjectSection(SolutionItems) = preProject
@@ -29,8 +32,11 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarBuilder", "Sources\Creational\Builder\CarBuilder\CarBuilder.csproj", "{8552B7D4-35B3-4916-8D5D-D0479802BA35}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05 - Prototype", "05 - Prototype", "{E0164F8E-AB94-4D3F-879A-6DB5F19FE84B}"
+	ProjectSection(SolutionItems) = preProject
+		Sources\Creational\Prototype\README.md = Sources\Creational\Prototype\README.md
+	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prototype", "Sources\Creational\Prototype\Prototype.csproj", "{1C69FD15-5FD4-49AF-B31F-F2A3407364EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonPrototype", "Sources\Creational\Prototype\PersonPrototype\PersonPrototype.csproj", "{1C69FD15-5FD4-49AF-B31F-F2A3407364EC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "B - Structural", "B - Structural", "{BA4514FF-AA9E-402C-B074-5A16FF91FD6E}"
 EndProject
@@ -62,7 +68,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "12 - Flyweight", "12 - Flyw
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flyweight", "Sources\Structural\Flyweight\Flyweight.csproj", "{ACCB5262-A3F5-4A77-864F-F27A3A3B5259}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton", "Sources\Creational\Singleton\Singleton.csproj", "{347B70DD-B108-4DB3-B36E-01DC8ADB9C2C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoggerSingleton", "Sources\Creational\Singleton\LoggerSingleton\LoggerSingleton.csproj", "{347B70DD-B108-4DB3-B36E-01DC8ADB9C2C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "C - Behavioral", "C - Behavioral", "{EE357574-412D-4C9D-A167-5002DE164362}"
 EndProject

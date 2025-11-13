@@ -1,7 +1,6 @@
-﻿using System.Runtime.Serialization.Formatters.Binary;
-using System.Text.Json;
+﻿using System.Text.Json;
 
-namespace Prototype;
+namespace PersonPrototype;
 
 /// <summary>
 /// Prototype
@@ -13,7 +12,7 @@ public abstract class Person
 }
 
 /// <summary>
-/// ConcretePrototype1
+/// Concrete prototype 1
 /// </summary>
 public class Manager : Person
 {
@@ -36,7 +35,7 @@ public class Manager : Person
 }
 
 /// <summary>
-/// ConcretePrototype2
+/// Concrete prototype 2
 /// </summary>
 public class Employee : Person
 {
