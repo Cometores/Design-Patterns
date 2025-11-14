@@ -1,0 +1,55 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.8 Chrome/140.0.7339.240 Electron/38.4.0 Safari/537.36" version="28.2.8">
+  <diagram name="Page-1" id="PGE4kBDWP3uQmbs_E98c">
+    <mxGraphModel dx="1181" dy="687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1G4WmA8h5n_9FoukMsmA-10" value="ExternalSystem" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#8B8B8B;fontColor=#8B8B8B;" vertex="1" parent="1">
+          <mxGeometry x="530" y="468" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1G4WmA8h5n_9FoukMsmA-11" value="+ GetCity: &lt;font style=&quot;color: rgb(255, 153, 153);&quot;&gt;CityFromExternalSystem&lt;/font&gt;" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#8B8B8B;" vertex="1" parent="1G4WmA8h5n_9FoukMsmA-10">
+          <mxGeometry y="26" width="210" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="1G4WmA8h5n_9FoukMsmA-15" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;«interface»&lt;/span&gt;&lt;br style=&quot;font-weight: 400;&quot;&gt;&lt;b&gt;ICityAdapter&lt;/b&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontColor=#8B8B8B;strokeColor=#8B8B8B;" vertex="1" parent="1">
+          <mxGeometry x="280" y="320" width="160" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="1G4WmA8h5n_9FoukMsmA-16" value="+ GetCity: &lt;font style=&quot;color: rgb(153, 255, 153);&quot;&gt;City&lt;/font&gt;" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#8B8B8B;" vertex="1" parent="1G4WmA8h5n_9FoukMsmA-15">
+          <mxGeometry y="40" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1G4WmA8h5n_9FoukMsmA-20" value="CityAdapter" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#8B8B8B;fontColor=#8B8B8B;" vertex="1" parent="1">
+          <mxGeometry x="255" y="440" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1G4WmA8h5n_9FoukMsmA-21" value="&lt;div&gt;- ExternalSystem: ExternalSystem&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;+ GetCity: &lt;font style=&quot;color: rgb(153, 255, 153);&quot;&gt;City&lt;/font&gt;" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#8B8B8B;" vertex="1" parent="1G4WmA8h5n_9FoukMsmA-20">
+          <mxGeometry y="26" width="210" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="1G4WmA8h5n_9FoukMsmA-23" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#8B8B8B;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1G4WmA8h5n_9FoukMsmA-20" source="1G4WmA8h5n_9FoukMsmA-21" target="1G4WmA8h5n_9FoukMsmA-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-95" y="140" as="sourcePoint" />
+            <mxPoint x="95" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1G4WmA8h5n_9FoukMsmA-24" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#8B8B8B;" edge="1" parent="1" source="1G4WmA8h5n_9FoukMsmA-20" target="1G4WmA8h5n_9FoukMsmA-15">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="280" y="470" as="sourcePoint" />
+            <mxPoint x="440" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1G4WmA8h5n_9FoukMsmA-25" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;strokeColor=#8B8B8B;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="1G4WmA8h5n_9FoukMsmA-20" target="1G4WmA8h5n_9FoukMsmA-10">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="280" y="470" as="sourcePoint" />
+            <mxPoint x="440" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1G4WmA8h5n_9FoukMsmA-26" value="&lt;b&gt;&lt;font style=&quot;color: rgb(139, 139, 139);&quot;&gt;Client&lt;/font&gt;&lt;/b&gt;" style="html=1;whiteSpace=wrap;strokeColor=#8B8B8B;" vertex="1" parent="1">
+          <mxGeometry x="100" y="320" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1G4WmA8h5n_9FoukMsmA-27" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;strokeColor=#8B8B8B;entryX=-0.004;entryY=0.383;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="1" source="1G4WmA8h5n_9FoukMsmA-26" target="1G4WmA8h5n_9FoukMsmA-15">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="60" y="420" as="sourcePoint" />
+            <mxPoint x="125" y="421" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

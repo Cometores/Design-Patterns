@@ -1,4 +1,6 @@
-﻿using Adapter; // using object adapter example
+﻿using CityAdapterExample; // using object adapter example
+
+// UNCOMMENT TO USE CLASS ADAPTER
 /*using ClassAdapter; // using class adapter example*/
 
 Console.Title = "Adapter";

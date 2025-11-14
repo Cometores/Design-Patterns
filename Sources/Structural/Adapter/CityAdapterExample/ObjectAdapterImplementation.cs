@@ -1,5 +1,23 @@
-﻿namespace ClassAdapter;
+﻿namespace CityAdapterExample;
 
+/// <summary>
+/// Our city representation we use
+/// </summary>
+public class City
+{
+    public string FullName { get; private set; }
+    public long Inhabitants { get; private set; }
+
+    public City(string fullName, long inhabitants)
+    {
+        FullName = fullName;
+        Inhabitants = inhabitants;
+    }
+}
+
+/// <summary>
+/// External city we can't really use
+/// </summary>
 public class CityFromExternalSystem
 {
     public string Name { get; private set; }
@@ -15,25 +33,13 @@ public class CityFromExternalSystem
 }
 
 /// <summary>
-/// Adaptee
+/// Adaptee (Legacy system, which we want to adapt)
 /// </summary>
 public class ExternalSystem
 {
     public CityFromExternalSystem GetCity()
     {
         return new CityFromExternalSystem("Antwerp", "'t Stad", 500000);
-    }
-}
-
-public class City
-{
-    public string FullName { get; private set; }
-    public long Inhabitants { get; private set; }
-
-    public City(string fullName, long inhabitants)
-    {
-        FullName = fullName;
-        Inhabitants = inhabitants;
     }
 }
 
@@ -48,12 +54,14 @@ public interface ICityAdapter
 /// <summary>
 /// Adapter
 /// </summary>
-public class CityAdapter: ExternalSystem, ICityAdapter
+public class CityAdapter: ICityAdapter
 {
+    private ExternalSystem ExternalSystem { get; set; } = new();
+    
     public City GetCity()
     {
         // call into the external system
-        var cityFromExternalSystem = base.GetCity();
+        var cityFromExternalSystem = ExternalSystem.GetCity();
         
         // adapt the CityFromExternalCity to a City
         return new City(

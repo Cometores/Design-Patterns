@@ -41,8 +41,11 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "B - Structural", "B - Structural", "{BA4514FF-AA9E-402C-B074-5A16FF91FD6E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06 - Adapter", "06 - Adapter", "{60637BBF-C1E5-47EF-9994-7870B51913A3}"
+	ProjectSection(SolutionItems) = preProject
+		Sources\Structural\Adapter\README.md = Sources\Structural\Adapter\README.md
+	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter", "Sources\Structural\Adapter\Adapter.csproj", "{4E31DC34-C2C1-45C4-BC2D-21AFF98BDEB5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CityAdapterExample", "Sources\Structural\Adapter\CityAdapterExample\CityAdapterExample.csproj", "{4E31DC34-C2C1-45C4-BC2D-21AFF98BDEB5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07 - Bridge", "07 - Bridge", "{7A473B8C-26AF-4CAE-B3E5-E0F091F7F4D2}"
 EndProject
