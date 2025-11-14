@@ -1,4 +1,4 @@
-﻿using Bridge;
+﻿using FoodMenuBridge;
 
 Console.Title = "Bridge";
 

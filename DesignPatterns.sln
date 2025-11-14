@@ -48,8 +48,11 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CityAdapterExample", "Sources\Structural\Adapter\CityAdapterExample\CityAdapterExample.csproj", "{4E31DC34-C2C1-45C4-BC2D-21AFF98BDEB5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07 - Bridge", "07 - Bridge", "{7A473B8C-26AF-4CAE-B3E5-E0F091F7F4D2}"
+	ProjectSection(SolutionItems) = preProject
+		Sources\Structural\Bridge\README.md = Sources\Structural\Bridge\README.md
+	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bridge", "Sources\Structural\Bridge\Bridge.csproj", "{75E6E304-74F2-4D88-8589-4366B1A7684D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoodMenuBridge", "Sources\Structural\Bridge\FoodMenuBridge\FoodMenuBridge.csproj", "{75E6E304-74F2-4D88-8589-4366B1A7684D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08 - Decorator", "08 - Decorator", "{46719157-346D-4BCE-B34D-55D2B5F2E93A}"
 EndProject

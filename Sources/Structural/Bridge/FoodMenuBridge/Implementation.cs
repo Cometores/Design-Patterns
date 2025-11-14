@@ -1,21 +1,21 @@
-﻿namespace Bridge;
+﻿namespace FoodMenuBridge;
 
 /// <summary>
 /// Abstraction
 /// </summary>
 public abstract class Menu
 {
-    public readonly ICoupon _coupon = null!;
+    protected readonly ICoupon Coupon = null!;
     public abstract int CalculatePrice();
 
-    public Menu(ICoupon coupon)
+    protected Menu(ICoupon coupon)
     {
-        _coupon = coupon;
+        Coupon = coupon;
     }
 }
 
 /// <summary>
-/// RefinedAbstraction
+/// Refined abstraction 1
 /// </summary>
 public class VegetarianMenu : Menu
 {
@@ -25,12 +25,12 @@ public class VegetarianMenu : Menu
 
     public override int CalculatePrice()
     {
-        return 20 - _coupon.CouponValue;
+        return 20 - Coupon.CouponValue;
     }
 }
 
 /// <summary>
-/// RefinedAbstraction
+/// Refined abstraction 2
 /// </summary>
 public class MeatBasedMenu : Menu
 {
@@ -40,7 +40,7 @@ public class MeatBasedMenu : Menu
 
     public override int CalculatePrice()
     {
-        return 30 - _coupon.CouponValue;
+        return 30 - Coupon.CouponValue;
     }
 }
 
@@ -53,7 +53,7 @@ public interface ICoupon
 }
 
 /// <summary>
-/// ConcreteImplementor
+/// Concrete implementor 1
 /// </summary>
 public class NoCoupon : ICoupon
 {
@@ -61,7 +61,7 @@ public class NoCoupon : ICoupon
 }
 
 /// <summary>
-/// ConcreteImplementor
+/// Concrete implementor 2
 /// </summary>
 public class OneEuroCoupon : ICoupon
 {
@@ -69,7 +69,7 @@ public class OneEuroCoupon : ICoupon
 }
 
 /// <summary>
-/// ConcreteImplementor
+/// Concrete implementor 3
 /// </summary>
 public class TwoEuroCoupon : ICoupon
 {
