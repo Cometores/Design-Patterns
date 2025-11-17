@@ -1,4 +1,4 @@
-﻿namespace Decorator;
+﻿namespace MailServiceDecorator;
 
 /// <summary>
 /// Component (as interface)
@@ -9,7 +9,7 @@ public interface IMailService
 }
 
 /// <summary>
-/// ConcreteComponent1
+/// Concrete component 1
 /// </summary>
 public class CloudMailService : IMailService
 {
@@ -22,7 +22,7 @@ public class CloudMailService : IMailService
 }
 
 /// <summary>
-/// ConcreteComponent2
+/// Concrete component 2
 /// </summary>
 public class OnPremiseMailService : IMailService
 {
@@ -53,7 +53,7 @@ public abstract class MailServiceDecoratorBase : IMailService
 }
 
 /// <summary>
-/// ConcreteDecorator1
+/// Concrete decorator 1
 /// </summary>
 public class StatisticsDecorator : MailServiceDecoratorBase
 {
@@ -70,7 +70,7 @@ public class StatisticsDecorator : MailServiceDecoratorBase
 }
 
 /// <summary>
-/// ConcreteDecorator2
+/// Concrete decorator 2
 /// </summary>
 public class MessageDatabaseDecorator : MailServiceDecoratorBase
 {

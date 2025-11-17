@@ -1,4 +1,4 @@
-﻿using Decorator;
+﻿using MailServiceDecorator;
 
 Console.Title = "Decorator";
 

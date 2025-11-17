@@ -29,7 +29,7 @@ Client code doesn’t get coupled to the concrete adapter class as long as it wo
 
 **Class Adapter** doesn't need to wrap any objects because it inherits behaviors from both the client and the service. The adaptation happens within the overridden methods. The resulting adapter can be used in place of an existing client class.
 
-# Pros and Cons
+## Pros and Cons
 **Pros:**
 - **Single Responsibility Principle**: You can separate the interface or data conversion code from the primary business logic of the program.
 - **Open/Closed Principle**: You can introduce new types of adapters into the program without breaking the existing client code, as long as they work with the adapters through the client interface.
