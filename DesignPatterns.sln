@@ -62,8 +62,11 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MailServiceDecorator", "Sources\Structural\Decorator\MailServiceDecorator\MailServiceDecorator.csproj", "{12768030-04EF-4B1D-A0E9-7C96F6B73DBE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "09 - Composite", "09 - Composite", "{E262BBA8-94AE-495C-85E6-FA54BA6A90A2}"
+	ProjectSection(SolutionItems) = preProject
+		Sources\Structural\Composite\README.md = Sources\Structural\Composite\README.md
+	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Composite", "Sources\Structural\Composite\Composite.csproj", "{898A0BFF-C8CA-451D-BA92-DACABABFF53E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileSystemComposite", "Sources\Structural\Composite\FileSystemComposite\FileSystemComposite.csproj", "{898A0BFF-C8CA-451D-BA92-DACABABFF53E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10 - Facade", "10 - Facade", "{BA606C2E-5A34-4290-AC23-58E5482CD300}"
 EndProject

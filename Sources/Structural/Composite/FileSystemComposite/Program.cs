@@ -1,5 +1,5 @@
-﻿using Directory = Composite.Directory;
-using File = Composite.File;
+﻿using Directory = FileSystemComposite.Directory;
+using File = FileSystemComposite.File;
 
 Console.Title = "Composite";
 
