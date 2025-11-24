@@ -1,0 +1,67 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="Page-1" id="kv2w02S1qu343Npd2KQQ">
+    <mxGraphModel dx="1181" dy="687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uplgz3Ni-GI6ixk1U3gL-1" value="&lt;i&gt;MailParser&lt;/i&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#8B8B8B;fontColor=#8B8B8B;" vertex="1" parent="1">
+          <mxGeometry x="350" y="320" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="uplgz3Ni-GI6ixk1U3gL-2" value="+ ParseMailBody(string): string&lt;div&gt;+ FindServer(): void&lt;/div&gt;&lt;div&gt;+ &lt;i&gt;AuthenticateToServer: void&lt;/i&gt;&lt;/div&gt;&lt;div&gt;+ ParseHtmlMailBody(string): string&lt;/div&gt;" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#8B8B8B;" vertex="1" parent="uplgz3Ni-GI6ixk1U3gL-1">
+          <mxGeometry y="26" width="210" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="uplgz3Ni-GI6ixk1U3gL-5" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontColor=#8B8B8B;strokeColor=#8B8B8B;" edge="1" parent="1" target="uplgz3Ni-GI6ixk1U3gL-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="535" y="359" as="sourcePoint" />
+            <mxPoint x="693" y="359" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uplgz3Ni-GI6ixk1U3gL-6" value="FindServer();&lt;div&gt;AuthenticateToServer();&lt;/div&gt;&lt;div&gt;ParseHtmlMailBody(...);&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=16;align=left;strokeColor=#8B8B8B;fontColor=#8B8B8B;" vertex="1" parent="1">
+          <mxGeometry x="680" y="300" width="130" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="uplgz3Ni-GI6ixk1U3gL-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;fontColor=#8B8B8B;strokeColor=#8B8B8B;" edge="1" parent="1" source="uplgz3Ni-GI6ixk1U3gL-7" target="uplgz3Ni-GI6ixk1U3gL-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="450" />
+              <mxPoint x="455" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uplgz3Ni-GI6ixk1U3gL-7" value="ApacheMailParser" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#8B8B8B;fontColor=#8B8B8B;" vertex="1" parent="1">
+          <mxGeometry x="170" y="508" width="160" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="uplgz3Ni-GI6ixk1U3gL-8" value="&lt;div&gt;+ FindServer(): void&lt;/div&gt;" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#8B8B8B;" vertex="1" parent="uplgz3Ni-GI6ixk1U3gL-7">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uplgz3Ni-GI6ixk1U3gL-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;fontColor=#8B8B8B;strokeColor=#8B8B8B;" edge="1" parent="1" source="uplgz3Ni-GI6ixk1U3gL-11" target="uplgz3Ni-GI6ixk1U3gL-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="455" y="420" />
+              <mxPoint x="455" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uplgz3Ni-GI6ixk1U3gL-11" value="EudoraMailParser" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#8B8B8B;fontColor=#8B8B8B;" vertex="1" parent="1">
+          <mxGeometry x="375" y="508" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uplgz3Ni-GI6ixk1U3gL-12" value="&lt;div&gt;+ FindServer(): void&lt;/div&gt;&lt;div&gt;+&amp;nbsp;AuthenticateToServer: void&lt;/div&gt;" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#8B8B8B;" vertex="1" parent="uplgz3Ni-GI6ixk1U3gL-11">
+          <mxGeometry y="26" width="160" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="uplgz3Ni-GI6ixk1U3gL-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;fontColor=#8B8B8B;strokeColor=#8B8B8B;" edge="1" parent="1" source="uplgz3Ni-GI6ixk1U3gL-13" target="uplgz3Ni-GI6ixk1U3gL-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="450" />
+              <mxPoint x="455" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uplgz3Ni-GI6ixk1U3gL-13" value="ExchangeMailParser" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#8B8B8B;fontColor=#8B8B8B;" vertex="1" parent="1">
+          <mxGeometry x="570" y="508" width="160" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="uplgz3Ni-GI6ixk1U3gL-14" value="+ FindServer(): void" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#8B8B8B;" vertex="1" parent="uplgz3Ni-GI6ixk1U3gL-13">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
