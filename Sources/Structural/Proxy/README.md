@@ -24,7 +24,13 @@
 
 # Examples
 ## Virtual proxy example
-Instead of creating object, you can delay the object's initialization to a time when it’s really needed.
+**Problem:** We want to add functionality to a Document creation process. 
+1. Instead of creating a document, you can delay the object's initialization to a time when it’s really necessary.
+2. We want to restrict file access via user roles.
+
+![diagram](virtualProxyDiagram.png)
+- Virtual proxy wraps **Document** for Lazy creation.
+- Protection proxy wraps the **Virtual proxy** and adds access control.
 
 ___
 [Back to home page](../../../README.md)

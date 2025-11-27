@@ -1,0 +1,135 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="Page-1" id="6RjJOyMxqkh-LyM1Jwo6">
+    <mxGraphModel dx="2275" dy="829" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="j0NOsiqE-cM6MR9_EnML-1" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;«interface»&lt;/span&gt;&lt;br style=&quot;font-weight: 400;&quot;&gt;IDocument" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#8B8B8B;fontColor=#8B8B8B;" vertex="1" parent="1">
+          <mxGeometry x="320" y="350" width="130" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="j0NOsiqE-cM6MR9_EnML-2" value="+ DisplayDocument();" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#8B8B8B;" vertex="1" parent="j0NOsiqE-cM6MR9_EnML-1">
+          <mxGeometry y="40" width="130" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="j0NOsiqE-cM6MR9_EnML-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=block;endFill=0;strokeColor=#8B8B8B;" edge="1" parent="1" source="j0NOsiqE-cM6MR9_EnML-6" target="j0NOsiqE-cM6MR9_EnML-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j0NOsiqE-cM6MR9_EnML-6" value="&lt;font style=&quot;color: rgb(153, 255, 153);&quot;&gt;Document&lt;/font&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#8B8B8B;fontColor=#8B8B8B;" vertex="1" parent="1">
+          <mxGeometry x="370" y="520" width="220" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="j0NOsiqE-cM6MR9_EnML-7" value="+ Title: string?&lt;div&gt;+ Content: string?&lt;br&gt;...&lt;/div&gt;&lt;div&gt;- _filename: string&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ Document(string fileName)&lt;/div&gt;&lt;div&gt;- LoadDocument(string fileName): void&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#8B8B8B;" vertex="1" parent="j0NOsiqE-cM6MR9_EnML-6">
+          <mxGeometry y="26" width="220" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="j0NOsiqE-cM6MR9_EnML-12" value="" style="endArrow=none;html=1;rounded=0;exitX=0.014;exitY=0.695;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.999;entryY=0.645;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#8B8B8B;" edge="1" parent="j0NOsiqE-cM6MR9_EnML-6" target="j0NOsiqE-cM6MR9_EnML-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="8.881784197001252e-15" y="100.00000000000006" as="sourcePoint" />
+            <mxPoint x="157.76" y="100.3719999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j0NOsiqE-cM6MR9_EnML-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=block;endFill=0;strokeColor=#8B8B8B;" edge="1" parent="1" source="j0NOsiqE-cM6MR9_EnML-15" target="j0NOsiqE-cM6MR9_EnML-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="175" y="468" />
+              <mxPoint x="385" y="468" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j0NOsiqE-cM6MR9_EnML-15" value="&lt;font style=&quot;color: rgb(51, 153, 255);&quot;&gt;VirtualDocumentProxy&lt;/font&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#8B8B8B;fontColor=#8B8B8B;" vertex="1" parent="1">
+          <mxGeometry x="40" y="520" width="230" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="j0NOsiqE-cM6MR9_EnML-16" value="- _document: Lazy&amp;lt;&lt;font style=&quot;color: rgb(153, 255, 153);&quot;&gt;Document&lt;/font&gt;&amp;gt;&lt;div&gt;- _filename: string&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;+ VirtualDocumentProxy(string fileName)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;- DisplayDocument(): void&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#8B8B8B;" vertex="1" parent="j0NOsiqE-cM6MR9_EnML-15">
+          <mxGeometry y="26" width="230" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="j0NOsiqE-cM6MR9_EnML-22" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#8B8B8B;" edge="1" parent="j0NOsiqE-cM6MR9_EnML-15" source="j0NOsiqE-cM6MR9_EnML-16" target="j0NOsiqE-cM6MR9_EnML-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="200" as="sourcePoint" />
+            <mxPoint x="120" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j0NOsiqE-cM6MR9_EnML-21" value="&lt;div style=&quot;background-color:#191a1c;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9,8pt;&quot;&gt;&lt;font style=&quot;font-size: 7px;&quot;&gt;&lt;span style=&quot;color: rgb(102, 195, 204);&quot;&gt;_document &lt;/span&gt;&lt;span style=&quot;color: rgb(189, 189, 189);&quot;&gt;= &lt;/span&gt;&lt;span style=&quot;color: rgb(108, 149, 235);&quot;&gt;new &lt;/span&gt;&lt;span style=&quot;color: rgb(193, 145, 255);&quot;&gt;Lazy&lt;/span&gt;&lt;span style=&quot;color: rgb(189, 189, 189);&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;color: rgb(193, 145, 255);&quot;&gt;Document&lt;/span&gt;&lt;span style=&quot;color: rgb(189, 189, 189);&quot;&gt;&amp;gt;(() &lt;/span&gt;=&amp;gt; &lt;span style=&quot;color: rgb(108, 149, 235);&quot;&gt;new &lt;/span&gt;&lt;span style=&quot;color: rgb(193, 145, 255);&quot;&gt;Document&lt;/span&gt;&lt;span style=&quot;color: rgb(189, 189, 189);&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: rgb(102, 195, 204);&quot;&gt;_fileName&lt;/span&gt;&lt;span style=&quot;color: rgb(189, 189, 189);&quot;&gt;));&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=7;strokeColor=#8B8B8B;" vertex="1" parent="1">
+          <mxGeometry x="15" y="416" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="j0NOsiqE-cM6MR9_EnML-23" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.002;entryY=0.663;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;strokeColor=#8B8B8B;" edge="1" parent="1" source="j0NOsiqE-cM6MR9_EnML-21" target="j0NOsiqE-cM6MR9_EnML-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-10" y="602" as="sourcePoint" />
+            <mxPoint x="40" y="570" as="targetPoint" />
+            <Array as="points">
+              <mxPoint y="431" />
+              <mxPoint y="602" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j0NOsiqE-cM6MR9_EnML-24" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;strokeColor=#8B8B8B;fontColor=#8B8B8B;" edge="1" parent="1" source="j0NOsiqE-cM6MR9_EnML-15" target="j0NOsiqE-cM6MR9_EnML-6">
+          <mxGeometry x="-1" y="3" relative="1" as="geometry">
+            <mxPoint x="130" y="730" as="sourcePoint" />
+            <mxPoint x="290" y="730" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="330" y="560" />
+              <mxPoint x="330" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j0NOsiqE-cM6MR9_EnML-25" value="&lt;div style=&quot;background-color:#191a1c;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9,8pt;&quot;&gt;&lt;div&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9,8pt;&quot;&gt;&lt;font style=&quot;font-size: 7px;&quot;&gt;&lt;span style=&quot;color: rgb(102, 195, 204);&quot;&gt;_document&lt;/span&gt;&lt;span style=&quot;color: rgb(189, 189, 189);&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;color: rgb(102, 195, 204);&quot;&gt;Value&lt;/span&gt;&lt;span style=&quot;color: rgb(189, 189, 189);&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;color: rgb(57, 204, 155);&quot;&gt;DisplayDocument&lt;/span&gt;&lt;span style=&quot;color: rgb(189, 189, 189);&quot;&gt;();&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=7;strokeColor=#8B8B8B;" vertex="1" parent="1">
+          <mxGeometry x="15" y="670" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="j0NOsiqE-cM6MR9_EnML-26" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=-0.006;exitY=0.823;exitDx=0;exitDy=0;exitPerimeter=0;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#8B8B8B;" edge="1" parent="1" source="j0NOsiqE-cM6MR9_EnML-16" target="j0NOsiqE-cM6MR9_EnML-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-20" y="660" as="sourcePoint" />
+            <mxPoint y="620" as="targetPoint" />
+            <Array as="points">
+              <mxPoint y="615" />
+              <mxPoint y="685" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j0NOsiqE-cM6MR9_EnML-28" value="ProtectionDocumentProxy" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#8B8B8B;fontColor=#8B8B8B;" vertex="1" parent="1">
+          <mxGeometry x="-340" y="520" width="270" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="j0NOsiqE-cM6MR9_EnML-29" value="- _virtualDocumentProxy: &lt;font style=&quot;color: rgb(51, 153, 255);&quot;&gt;VirtualDocumentProxy&lt;/font&gt;&lt;div&gt;- _filename: string&lt;/div&gt;&lt;div&gt;- _userRole: string&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;+ ProtectionDocumentProxy(string fileName, string userRole)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;- DisplayDocument(): void&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#8B8B8B;" vertex="1" parent="j0NOsiqE-cM6MR9_EnML-28">
+          <mxGeometry y="26" width="270" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="j0NOsiqE-cM6MR9_EnML-31" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#8B8B8B;" edge="1" parent="j0NOsiqE-cM6MR9_EnML-28" source="j0NOsiqE-cM6MR9_EnML-29" target="j0NOsiqE-cM6MR9_EnML-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-60" y="-50" as="sourcePoint" />
+            <mxPoint x="-10" y="-100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j0NOsiqE-cM6MR9_EnML-40" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;strokeColor=#8B8B8B;fontColor=#8B8B8B;" edge="1" parent="1" source="j0NOsiqE-cM6MR9_EnML-28" target="j0NOsiqE-cM6MR9_EnML-15">
+          <mxGeometry x="-1" y="3" relative="1" as="geometry">
+            <mxPoint x="80" y="520" as="sourcePoint" />
+            <mxPoint x="240" y="520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-20" y="560" />
+              <mxPoint x="-20" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j0NOsiqE-cM6MR9_EnML-41" value="&lt;div style=&quot;background-color:#191a1c;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9,8pt;&quot;&gt;&lt;div&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9,8pt;&quot;&gt;&lt;font style=&quot;font-size: 7px;&quot;&gt;&lt;span style=&quot;color: rgb(102, 195, 204);&quot;&gt;_virtualDocumentProxy &lt;/span&gt;&lt;span style=&quot;color: rgb(189, 189, 189);&quot;&gt;= &lt;/span&gt;&lt;span style=&quot;color: rgb(108, 149, 235);&quot;&gt;new &lt;/span&gt;&lt;span style=&quot;color: rgb(193, 145, 255);&quot;&gt;VirtualDocumentProxy&lt;/span&gt;&lt;span style=&quot;color: rgb(189, 189, 189);&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: rgb(102, 195, 204);&quot;&gt;_fileName&lt;/span&gt;&lt;span style=&quot;color: rgb(189, 189, 189);&quot;&gt;);&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=7;strokeColor=#8B8B8B;" vertex="1" parent="1">
+          <mxGeometry x="-360" y="416" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="j0NOsiqE-cM6MR9_EnML-42" value="" style="endArrow=none;dashed=1;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;strokeColor=#8B8B8B;" edge="1" parent="1" source="j0NOsiqE-cM6MR9_EnML-41" target="j0NOsiqE-cM6MR9_EnML-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-385" y="480" as="sourcePoint" />
+            <mxPoint x="-360" y="651" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-400" y="431" />
+              <mxPoint x="-400" y="616" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j0NOsiqE-cM6MR9_EnML-43" value="" style="endArrow=none;dashed=1;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;strokeColor=#8B8B8B;" edge="1" parent="1" source="j0NOsiqE-cM6MR9_EnML-29" target="j0NOsiqE-cM6MR9_EnML-47">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-350" y="680" as="sourcePoint" />
+            <mxPoint x="-340" y="865" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-400" y="646" />
+              <mxPoint x="-400" y="700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j0NOsiqE-cM6MR9_EnML-47" value="&lt;div style=&quot;background-color:#191a1c;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9,8pt;&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9,8pt;&quot;&gt;&lt;div&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9,8pt;&quot;&gt;&lt;font style=&quot;font-size: 7px;&quot;&gt;&lt;span style=&quot;color: rgb(102, 195, 204);&quot;&gt;_virtualDocumentProxy&lt;/span&gt;&lt;span style=&quot;color: rgb(189, 189, 189);&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;color: rgb(57, 204, 155);&quot;&gt;DisplayDocument&lt;/span&gt;&lt;span style=&quot;color: rgb(189, 189, 189);&quot;&gt;();&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=7;strokeColor=#8B8B8B;" vertex="1" parent="1">
+          <mxGeometry x="-360" y="680" width="170" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
