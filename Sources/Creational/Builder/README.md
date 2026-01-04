@@ -28,5 +28,11 @@ object using the same construction code.
 
 ![diagram](carBuilderDiagram.png)
 
+## EF Core query builder
+Web API specific example: [GitHub Gist](https://gist.github.com/Cometores/68403a960bfde7d1438eeed688e94703)
+
+## DI options builder
+Minimal example of ASP.NET-style service registration using IServiceCollection: [GitHub Gist](https://gist.github.com/Cometores/d544408b5d47310b592ee438909373a6)
+
 ___
 [Back to home page](../../../README.md)
